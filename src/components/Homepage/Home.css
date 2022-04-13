@@ -5,18 +5,22 @@ body {
     color: #EAD101;
     padding: 75px 0px 40px 0px;
     font-size: 25px;
-    margin: 25px 50px 25px 50px;
+    margin: 25px 50px 25px 0px;
     font-family: "DISTGRG_-webfont";
     text-align: center;
   }
   
-  p{
+  p {
     padding: 35px 0px 50px 0px;
     font-size: 25px;
     font-family: 'Helvetica';
     max-width: 50ch;
     margin:0 auto;
     text-align: center;
+  }
+
+  .list {
+    text-align: left;
   }
   
   .footer{
@@ -38,8 +42,12 @@ body {
   
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 75px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 240px;
+    position: absolute;
+    top: 32%;
+    left: 46%;
+    justify-content: center;
   }
   
   
