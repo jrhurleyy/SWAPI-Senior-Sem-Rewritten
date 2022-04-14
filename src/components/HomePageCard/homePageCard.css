@@ -19,9 +19,10 @@
 
 .image-container img{
     overflow: hidden; 
+    width: 245px;
     height: 200px;
     padding: 15px 0px 0px 0px;
-    border-radius: px;
+    border-radius: 15px / 25px;
 }
 
 .card-title

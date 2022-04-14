@@ -1,10 +1,11 @@
+
 import React, { Component } from "react";
 import "./homePageCard.css";
 
 function HPCard({
   title,
   imageUrl,
-  cardData /*, children */
+  cardData /*, children */,
   // index,
   // deleteSelectedFavorite,
   // showDeleteButton,
@@ -46,7 +47,7 @@ function HPCard({
   // };
 
   return (
-    <div className="card-container">
+    <div className="card-container" >
       {/* {showDeleteButton && (
         <div className="button-holder">
           <delete-button onClick={deleteHandler}>X</delete-button>
@@ -58,11 +59,9 @@ function HPCard({
         </div>
       )} */}
       <div className="image-container">
-                <img src = {imageUrl} alt ='display image' />
-            </div>
-      <div className="card-title">
-                {title}
-            </div>
+        <img src={imageUrl} alt="display image" />
+      </div>
+      <div className="card-title">{title}</div>
       {/* <div className="card-body">{cardData}</div> */}
     </div>
   );
