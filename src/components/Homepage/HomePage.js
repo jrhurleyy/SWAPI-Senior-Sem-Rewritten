@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import HPCard from "../HomePageCard/homePageCard";
-import "./Home.css";
+import "./HomePage.css";
 const axios = require("axios");
 
 const imageUrl = [
@@ -64,7 +64,6 @@ class HomePage extends Component {
       return <HPCard cardData={curr} title={curr.page} imageUrl={curr.image}/>;
     });
 
-    console.log(cardComp);
     this.setState({
       cardComponent: cardComp,
     });

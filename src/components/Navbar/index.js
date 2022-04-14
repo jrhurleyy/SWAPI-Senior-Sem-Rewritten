@@ -12,7 +12,7 @@ return (
 		<NavLink to='/' activeStyle>
 			Home
 		</NavLink>
-		<NavLink to='/favorites' activeStyle>
+		{/* <NavLink to='/favorites' activeStyle>
 			Favorites
 		</NavLink>
 		<NavLink to='/deletefavorites' activeStyle>
@@ -20,7 +20,7 @@ return (
 		</NavLink>
         <NavLink to='/addfavorites' activeStyle>
 			Add Favorites
-		</NavLink>
+		</NavLink> */}
 		</NavMenu>
 	</Nav>
     </div>

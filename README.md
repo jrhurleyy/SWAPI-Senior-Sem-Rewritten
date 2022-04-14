@@ -2,6 +2,17 @@
 
     - In order to run program, type "npm start"
 
+## Version 2.0.0
+# Release Changes
+- Updates overall working of the application to allow for dynamic page switching, routing, and data retrieval.
+
+**Changes**
+- Changes how the card component is rendered
+
+**Bug Fixes**
+- Fixes a bug where the cards were not properly spaced
+- Fixes a bug where the cards component would not show images properly
+
 ## Version 1.0.0
 # Release Changes
 - This is the initial version of SWAPI for Jason Hurley's Senior Seminar Project. This release does the following:
