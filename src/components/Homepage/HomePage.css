@@ -51,7 +51,8 @@ p {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10vw;
+  row-gap: 3vw;
+  column-gap: 10vw;
   position: absolute;
   left: 46%;
   justify-content: center;
