@@ -12,6 +12,9 @@ return (
 		<NavLink to='/' activeStyle>
 			Home
 		</NavLink>
+		<NavLink to='/people' activeStyle>
+			People
+		</NavLink>
 		{/* <NavLink to='/favorites' activeStyle>
 			Favorites
 		</NavLink>

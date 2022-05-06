@@ -36,7 +36,6 @@ class HomePage extends Component {
     const res = [];
     const keys = Object.keys(obj);
     keys.forEach((key, index) => {
-      console.log(imageUrl[index].url)
       res.push({
         page: key,
         link: obj[key],
@@ -80,7 +79,8 @@ class HomePage extends Component {
             application acts as a visual guide using the open source Star Wars
             API to display information about various entities within Star Wars.
             This includes Characters, Movies, Starships, Planets, and more. In
-            order to learn more about a specific category, click a card below.
+            order to learn more about a specific category, please use the navigation
+            bar above to check out the other pages!
           </p>
         </header>
         <div className="grid-container">
